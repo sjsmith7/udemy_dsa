@@ -6,7 +6,7 @@ import course.Algorithms.*;
 public class HelloWorld {
 
     public static void main(String[] args) {
-        //true == test run.
+        //true == run test.
         ArrayTest(false);
         LinkedListTest(false);
         StackTest(false);
@@ -21,6 +21,9 @@ public class HelloWorld {
             return;
         }
         Sorting sort = new Sorting();
+        sort.BubbleSort();
+        sort.SelectionSort();
+        sort.InsertionSort();
 
     }
 

@@ -1,10 +1,11 @@
-public class HelloWorld {
+public class RunCodeChallenges {
 
     public static void main(String[] args) {
         // ReverseStringTest();
         // MergeTwoSortedArraysTest();
         // FirstRecurringCharacterTest();
-        System.out.println("test");
+        ReverseString reverseStringTest = new ReverseString("fred");
+        reverseStringTest.revStringAnotherWay();
     }
 
 

@@ -1,0 +1,29 @@
+Biggest takeaway, learn what sorting algorithm your language is using.
+- Python uses Timsort, a combination of QuickSort and Insertion Sort.
+- JS is engine dependent, V8 (Chrome) uses an Insertion sort for smaller data inputs TimSort for larger input
+- Java also uses Timsort
+- Thanks Tim..
+
+1.Merge Sort
+Divide & Conquer. 0(n log(n)). Great for large data, good for performance, ensures we keep 0(n log(n)) for worst case.
+
+2.Quick Sort
+Divide & Conquer. 0(n log(n)). One of the most popular. Worst case is bad (if the pivot is incorrectly implemented)
+
+# Merge sort and Quick sort are the most dominant sort methods.
+
+Insertion sort
+Should be used with only a few items or when items are mostly sorted. It uses little space, easy to implement
+
+Bubble sort
+Avoid. Usually only used for educational purposes
+
+Selection Sort
+Avoid. Usually only used for educational purposes
+
+Heap Sort
+Sorts in place. Slower than quick sort in most cases. Useful if memory constrained.
+
+Non-Comparison Sort - These only work with Integers in a certain range e.g 0-100 are the only natural numbers that could be used
+Counting sort
+Radix sort
